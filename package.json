@@ -1,0 +1,57 @@
+{
+   "name": "fernspec",
+   "version": "0.9.0",
+   "description": "Minimalist, open source and magic-free framework for testing TypeScript applications in the browser.",
+   "main": "./dist/index.js",
+   "types": "./dist/index.d.ts",
+   "license": "MIT",
+   "homepage": "https://github.com/mathieucaroff/fernspec#readme",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mathieucaroff/fernspec.git"
+   },
+   "bugs": {
+      "url": "https://github.com/mathieucaroff/fernspec/issues"
+   },
+   "scripts": {
+      "test": "ava --verbose"
+   },
+   "keywords": [
+      "ava",
+      "browser",
+      "fern",
+      "fernspec",
+      "hay",
+      "hayspec",
+      "isomorphic",
+      "javascript",
+      "kiss",
+      "spec",
+      "tdd",
+      "test",
+      "testing",
+      "typescript",
+      "unit",
+      "unit-test",
+      "web"
+   ],
+   "ava": {
+      "extensions": [
+         "ts"
+      ],
+      "require": [
+         "ts-node/register"
+      ],
+      "files": [
+         "src/**/*.test.ts"
+      ]
+   },
+   "dependencies": {
+      "ava": "^3.5.0",
+      "logatim": "^0.9.0"
+   },
+   "devDependencies": {
+      "ts-node": "^8.7.0",
+      "typescript": "^3.8.3"
+   }
+}
